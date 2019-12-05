@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Browser Test Suite" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="9.427128">
+    <testsuite name="Tests\Browser\RegisterTest" file="/var/www/html/api_changes/dup/tests/Browser/RegisterTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="9.427128">
+      <testcase name="testRegister" class="Tests\Browser\RegisterTest" file="/var/www/html/api_changes/dup/tests/Browser/RegisterTest.php" line="16" assertions="2" time="9.427128"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

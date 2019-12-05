@@ -1,0 +1,24 @@
+
+##teamcity[testCount count='2' flowId='11075']
+
+##teamcity[testSuiteStarted name='Browser Test Suite' flowId='11075']
+
+##teamcity[testSuiteStarted name='Tests\Browser\ExampleTest' locationHint='php_qn:///var/www/html/api_changes/dup/tests/Browser/ExampleTest.php::\Tests\Browser\ExampleTest' flowId='11075']
+
+##teamcity[testStarted name='testBasicExample' locationHint='php_qn:///var/www/html/api_changes/dup/tests/Browser/ExampleTest.php::\Tests\Browser\ExampleTest::testBasicExample' flowId='11075']
+
+##teamcity[testFinished name='testBasicExample' duration='2830' flowId='11075']
+
+##teamcity[testSuiteFinished name='Tests\Browser\ExampleTest' flowId='11075']
+
+##teamcity[testSuiteStarted name='Tests\Browser\RegisterTest' locationHint='php_qn:///var/www/html/api_changes/dup/tests/Browser/RegisterTest.php::\Tests\Browser\RegisterTest' flowId='11075']
+
+##teamcity[testStarted name='testRegister' locationHint='php_qn:///var/www/html/api_changes/dup/tests/Browser/RegisterTest.php::\Tests\Browser\RegisterTest::testRegister' flowId='11075']
+
+##teamcity[testFailed name='testRegister' message='Actual path |[/register|] does not equal expected path |[/login|].|nFailed asserting that |'/register|' matches PCRE pattern "/^\/login$/u".' details=' /var/www/html/api_changes/dup/vendor/laravel/dusk/src/Concerns/MakesUrlAssertions.php:165|n /var/www/html/api_changes/dup/tests/Browser/RegisterTest.php:27|n /var/www/html/api_changes/dup/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:67|n /var/www/html/api_changes/dup/tests/Browser/RegisterTest.php:30|n ' flowId='11075']
+
+##teamcity[testFinished name='testRegister' duration='3510' flowId='11075']
+
+##teamcity[testSuiteFinished name='Tests\Browser\RegisterTest' flowId='11075']
+
+##teamcity[testSuiteFinished name='Browser Test Suite' flowId='11075']

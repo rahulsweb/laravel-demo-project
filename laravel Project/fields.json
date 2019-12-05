@@ -1,0 +1,42 @@
+{
+    "fields": [{
+            "name": "first_name",
+            "type": "string"
+        },
+        {
+            "name": "last_name",
+            "type": "string"
+        },
+        {
+            "name": "email",
+            "type": "string",
+           
+        },
+        {
+            "name": "password",
+            "type": "string",
+           
+        },
+        {
+            "name": "status",
+            "type": "string",
+           
+        },
+        
+    ],
+    "foreign_keys": [{
+        "column": "user_id",
+        "references": "id",
+        "on": "users",
+        "onDelete": "cascade"
+    }],
+    "relationships": [{
+        "name": "user",
+        "type": "belongsTo",
+        "class": "App\\User"
+    }],
+    "validations": [{
+        "field": "first_name",
+        "rules": "required|max:20"
+    }]
+}
